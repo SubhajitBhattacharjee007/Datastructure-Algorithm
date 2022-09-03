@@ -20,8 +20,8 @@ public class CheckIfTwoArraysEqualOrNot {
 	public static void main(String[] args) {
 		int[] A = {1,2,5,4,0};
 		int[] B = {2,4,5,0,1};
-		System.out.println("Unsorted Array: "+Arrays.toString(A));
-		System.out.println("Sorted Array: "+Arrays.toString(sort(A)));
+		System.out.println("Unsorted Array: "+ Arrays.toString(A));
+		System.out.println("Sorted Array: "+ Arrays.toString(sort(A)));
 		A=sort(A);
 		B=sort(B);
 		System.out.println("Check if arrays are same or not: "+ checkEquality(A, B));
